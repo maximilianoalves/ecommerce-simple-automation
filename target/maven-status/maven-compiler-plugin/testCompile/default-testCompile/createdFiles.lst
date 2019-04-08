@@ -1,0 +1,7 @@
+utils/Utils.class
+utils/Browser.class
+pageObjects/HomePage.class
+tests/CommerceFlow.class
+pageObjects/BasePage.class
+pageObjects/SignInPage.class
+tests/BaseTest.class
