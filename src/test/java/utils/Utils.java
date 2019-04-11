@@ -6,7 +6,5 @@ public class Utils {
         return "driver/chromedriver";
     }
 
-    public static String getBaseUrl() {
-        return "http://automationpractice.com/";
-    }
+    public static String getBaseUrl() { return "http://automationpractice.com/"; }
 }

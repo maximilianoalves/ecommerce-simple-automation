@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="false">
     <test name="CommerceFlow">
         <classes>
-            <class name="tests.CommerceFlow"/>
+            <class name="tests.CommerceFlowTest"/>
         </classes>
     </test> <!-- Test -->
 </suite>

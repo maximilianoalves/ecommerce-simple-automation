@@ -59,7 +59,6 @@ public class CreateAccountPage extends BasePage {
         fillSelectState("19");
         inputAddressZipCode().sendKeys("04017");
         inputAddressMobilePhone().sendKeys(faker.phoneNumber().cellPhone());
-        //btn register
         btnRegister().click();
     }
 

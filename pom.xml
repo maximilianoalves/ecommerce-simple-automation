@@ -37,10 +37,27 @@
             <version>1.18.6</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-junit4</artifactId>
+            <version>2.9.0</version>
+        </dependency>
     </dependencies>
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.8</version>
+                <configuration>
+                    <reportVersion>2.3.1</reportVersion>
+                    <reportDirectory>allure-report</reportDirectory>
+                    <properties>
+                        <allure.results.directory>target/surefire-reports</allure.results.directory>
+                    </properties>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -58,8 +75,14 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
-                        <!-- <suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile> -->
                     </suiteXmlFiles>
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <systemProperties>
+                        <property>
+                            <name>buildDir</name>
+                            <value>target/allure-results</value>
+                        </property>
+                    </systemProperties>
                 </configuration>
             </plugin>
         </plugins>
