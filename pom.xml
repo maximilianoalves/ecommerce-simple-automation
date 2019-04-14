@@ -39,8 +39,8 @@
         </dependency>
         <dependency>
             <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-junit4</artifactId>
-            <version>2.9.0</version>
+            <artifactId>allure-testng</artifactId>
+            <version>2.10.0</version>
         </dependency>
     </dependencies>
 
@@ -52,10 +52,6 @@
                 <version>2.8</version>
                 <configuration>
                     <reportVersion>2.3.1</reportVersion>
-                    <reportDirectory>allure-report</reportDirectory>
-                    <properties>
-                        <allure.results.directory>target/surefire-reports</allure.results.directory>
-                    </properties>
                 </configuration>
             </plugin>
             <plugin>
@@ -77,12 +73,6 @@
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
-                    <systemProperties>
-                        <property>
-                            <name>buildDir</name>
-                            <value>target/allure-results</value>
-                        </property>
-                    </systemProperties>
                 </configuration>
             </plugin>
         </plugins>
