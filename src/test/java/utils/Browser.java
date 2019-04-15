@@ -2,7 +2,6 @@ package utils;
 
 import java.util.concurrent.TimeUnit;
 
-import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -20,8 +19,6 @@ public class Browser {
             try {
                 driver = new ChromeDriver();
                 wait = new WebDriverWait(driver, 30);
-                ChromeOptions options = new ChromeOptions();
-                options.addArguments("headless");
                 maximizeBrowser();
                 setPageLoadTimeout();
             } catch (Exception e) {

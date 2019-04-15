@@ -10,12 +10,22 @@ import org.openqa.selenium.WebElement;
 public class HomePage extends BasePage {
 
 
-    public String signIn = "login";
+    public String CLASSSignIn = "login";
+    public String TITLETShirt = "T-SHIRTS";
 
 
     public WebElement signIn() {
-        return driver.findElement(By.className(this.getSignIn()));
+        return driver.findElement(By.className(this.getCLASSSignIn()));
     }
+
+    public WebElement tShirt() {
+        return driver.findElement(By.linkText(this.getTITLETShirt()));
+    }
+
+    public void clickTShirt() {
+        tShirt().click();
+    }
+
 
     public void clickSignIn() {
         signIn().click();

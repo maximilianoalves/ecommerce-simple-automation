@@ -2,10 +2,7 @@ package tests;
 
 import org.junit.Assert;
 import org.junit.Test;
-import pageObjects.CreateAccountPage;
-import pageObjects.HomePage;
-import pageObjects.MyAccountPage;
-import pageObjects.SignInPage;
+import pageObjects.*;
 
 public class CommerceFlowTest extends BaseTest{
 
@@ -21,7 +18,20 @@ public class CommerceFlowTest extends BaseTest{
         signInPage.clickBtnSubmitCreate();
         createAccount.fastFillInputForm();
         Assert.assertEquals("Text should be equal to: ", myAccountPage.getTextInfoMyAccount(), "Welcome to your account. Here you can manage all of your personal information and orders.");
+    }
+
+    @org.testng.annotations.Test
+    public void acessarDetalheDoProduto() {
+        HomePage homePage = new HomePage();
+        CategoryPage categoryPage = new CategoryPage();
+
+        homePage.clickTShirt();
+        Assert.assertEquals("Text should be equal to: ", categoryPage.txtCategoryTitle(), "T-SHIRTS" );
+
 
     }
+
+
+
 
 }

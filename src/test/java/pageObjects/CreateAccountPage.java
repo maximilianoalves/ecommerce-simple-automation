@@ -1,12 +1,14 @@
 package pageObjects;
 
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 @Data
+@Getter
 @NoArgsConstructor
 public class CreateAccountPage extends BasePage {
 
