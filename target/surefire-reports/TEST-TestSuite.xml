@@ -1,67 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="23.09" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="30.502" tests="2" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="gopherProxySet" value="false"/>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="java.specification.version" value="11"/>
-    <property name="sun.cpu.isalist" value=""/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="user.timezone" value="America/Sao_Paulo"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="java.vm.specification.version" value="11"/>
+    <property name="java.vendor" value="Eclipse OpenJ9"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="BR"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.3.5 clean test"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="maven.home" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/Users/maximiliano"/>
-    <property name="user.language" value="pt"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2019-01-15"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.boot.class.path" value="/Users/Maximiliano/.sdkman/candidates/java/8.0.212.j9-adpt/jre/lib/compressedrefs/jclSC180/vm.jar:/Users/Maximiliano/.sdkman/candidates/java/8.0.212.j9-adpt/jre/lib/se-service.jar:/Users/Maximiliano/.sdkman/candidates/java/8.0.212.j9-adpt/jre/lib/rt.jar:/Users/Maximiliano/.sdkman/candidates/java/8.0.212.j9-adpt/jre/lib/resources.jar:/Users/Maximiliano/.sdkman/candidates/java/8.0.212.j9-adpt/jre/lib/jsse.jar:/Users/Maximiliano/.sdkman/candidates/java/8.0.212.j9-adpt/jre/lib/charsets.jar:/Users/Maximiliano/.sdkman/candidates/java/8.0.212.j9-adpt/jre/lib/jce.jar"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="11.0.2+9-LTS"/>
-    <property name="user.name" value="maximiliano"/>
-    <property name="path.separator" value=":"/>
-    <property name="os.version" value="10.14.3"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.runtime.version" value="1.8.0_212-b03"/>
+    <property name="user.name" value="Maximiliano"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="os.encoding" value="UTF-8"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="18.9"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="/var/folders/zz/sv8gc03d6nd6g2pp503t_z9h0000gp/T/"/>
-    <property name="idea.version" value="2018.3.5"/>
-    <property name="java.version" value="11.0.2"/>
-    <property name="user.dir" value="/Users/maximiliano/IdeaProjects/treinamentoweb"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/maximiliano/IdeaProjects/treinamentoweb"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
-    <property name="sun.os.patch.level" value="unknown"/>
-    <property name="java.library.path" value="/Users/maximiliano/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vm.version" value="11.0.2+9-LTS"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="idea.version2019.1.3" value="true"/>
+    <property name="user.language" value="pt"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="/Users/Maximiliano/.sdkman/candidates/java/8.0.212.j9-adpt/jre/lib/compressedrefs:/Users/Maximiliano/.sdkman/candidates/java/8.0.212.j9-adpt/jre/lib"/>
+    <property name="sun.boot.library.path" value="/Users/Maximiliano/.sdkman/candidates/java/8.0.212.j9-adpt/jre/lib/compressedrefs:/Users/Maximiliano/.sdkman/candidates/java/8.0.212.j9-adpt/jre/lib"/>
     <property name="classworlds.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="java.class.version" value="55.0"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.extensions.version" value="8.0.212.0"/>
+    <property name="java.version" value="1.8.0_212"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="com.ibm.system.agent.path" value="/Users/Maximiliano/.sdkman/candidates/java/8.0.212.j9-adpt/jre/lib"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.zero.version" value="2"/>
+    <property name="java.endorsed.dirs" value="/Users/Maximiliano/.sdkman/candidates/java/8.0.212.j9-adpt/jre/lib/endorsed"/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="BR"/>
+    <property name="java.home" value="/Users/Maximiliano/.sdkman/candidates/java/8.0.212.j9-adpt/jre"/>
+    <property name="java.vm.info" value="JRE 1.8.0 Mac OS X amd64-64-Bit Compressed References 20190417_217 (JIT enabled, AOT enabled)&#10;OpenJ9   - bad1d4d06&#10;OMR      - 4a4278e6&#10;JCL      - 5590c4f818 based on jdk8u212-b03"/>
+    <property name="os.version" value="10.14.5"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="openj9-0.14.0"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="user.home" value="/Users/Maximiliano"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="java.library.path" value="/Users/Maximiliano/.sdkman/candidates/java/8.0.212.j9-adpt/jre/lib/compressedrefs:/Users/Maximiliano/.sdkman/candidates/java/8.0.212.j9-adpt/jre/lib:/usr/lib"/>
+    <property name="java.vendor.url" value="http://www.eclipse.org/openj9"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="java.fullversion" value="1.8.0_212-b03&#10;JRE 1.8.0 Mac OS X amd64-64-Bit Compressed References 20190417_217 (JIT enabled, AOT enabled)&#10;OpenJ9   - bad1d4d06&#10;OMR      - 4a4278e6&#10;JCL      - 5590c4f818 based on jdk8u212-b03"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.1.3 clean test"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="/var/folders/gp/997x_9dn01vfjx97_r8lt5mc0000gp/T/"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/Maximiliano/Documents/projetos/pessoal/ecommerce-simple-automation"/>
+    <property name="ibm.system.encoding" value="UTF-8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="java.ext.dirs" value="/Users/Maximiliano/.sdkman/candidates/java/8.0.212.j9-adpt/jre/lib/ext"/>
+    <property name="user.dir" value="/Users/Maximiliano/Documents/projetos/pessoal/ecommerce-simple-automation"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.specification.version" value="1.8"/>
   </properties>
-  <testcase name="acessarDetalheDoProduto" classname="tests.CommerceFlowTest" time="3.159"/>
-  <testcase name="registerUser" classname="tests.CommerceFlowTest" time="8.626"/>
+  <testcase name="acessarDetalheDoProduto" classname="tests.CommerceFlowTest" time="3.456"/>
+  <testcase name="registerUser" classname="tests.CommerceFlowTest" time="17.796"/>
 </testsuite>

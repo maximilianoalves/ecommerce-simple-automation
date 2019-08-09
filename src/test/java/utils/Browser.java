@@ -51,5 +51,4 @@ public class Browser {
         } catch (UnreachableBrowserException e) {
         }
     }
-
 }

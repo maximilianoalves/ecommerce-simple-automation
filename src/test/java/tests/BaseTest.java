@@ -9,13 +9,13 @@ import utils.Utils;
 
 public class BaseTest {
 
-    @Before @BeforeClass
+    @BeforeClass
     public void setup(){
         System.setProperty("webdriver.chrome.driver", Utils.webdriverLocation());
         Browser.loadPage(Utils.getBaseUrl());
     }
 
-    @After @AfterClass
+    @AfterClass
     public void tearDown() {
         Browser.close();
     }

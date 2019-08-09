@@ -1,12 +1,16 @@
 package tests;
 
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.junit.Assert;
-import org.junit.Test;
+import org.testng.annotations.Test;
 import pageObjects.*;
 
+@Feature("Fluxos de telas do e-commerce")
 public class CommerceFlowTest extends BaseTest{
 
-    @Test @org.testng.annotations.Test
+    @Test
+    @Story("Registrar um usuário")
     public void registerUser() {
         HomePage homePage = new HomePage();
         SignInPage signInPage = new SignInPage();
@@ -20,18 +24,13 @@ public class CommerceFlowTest extends BaseTest{
         Assert.assertEquals("Text should be equal to: ", myAccountPage.getTextInfoMyAccount(), "Welcome to your account. Here you can manage all of your personal information and orders.");
     }
 
-    @org.testng.annotations.Test
+    @Test
+    @Story("Acessar o detalhe de um produto")
     public void acessarDetalheDoProduto() {
         HomePage homePage = new HomePage();
         CategoryPage categoryPage = new CategoryPage();
 
         homePage.clickTShirt();
         Assert.assertEquals("Text should be equal to: ", categoryPage.txtCategoryTitle(), "T-SHIRTS" );
-
-
     }
-
-
-
-
 }

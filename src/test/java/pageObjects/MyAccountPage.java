@@ -11,12 +11,9 @@ public class MyAccountPage extends BasePage {
 
     public String CLASSTextInfoMyAccount = "info-account";
 
-
     public WebElement textInfoMyAccount() {
         return driver.findElement(By.className(this.getCLASSTextInfoMyAccount()));
     }
-
-
     public String getTextInfoMyAccount() {
         return textInfoMyAccount().getText();
     }
