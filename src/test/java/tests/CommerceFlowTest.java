@@ -10,7 +10,7 @@ import pageObjects.*;
 public class CommerceFlowTest extends BaseTest{
 
     @Test
-    @Story("Registrar um usuário")
+    @Story("Registrar um usuário.")
     public void registerUser() {
         HomePage homePage = new HomePage();
         SignInPage signInPage = new SignInPage();
@@ -25,7 +25,7 @@ public class CommerceFlowTest extends BaseTest{
     }
 
     @Test
-    @Story("Acessar o detalhe de um produto")
+    @Story("Acessar o detalhe de um produto.")
     public void acessarDetalheDoProduto() {
         HomePage homePage = new HomePage();
         CategoryPage categoryPage = new CategoryPage();
