@@ -3,8 +3,5 @@ tests/CommerceFlowTest.class
 utils/Browser.class
 pageObjects/HomePage.class
 pageObjects/CategoryPage.class
-pageObjects/MyAccountPage.class
 pageObjects/BasePage.class
-pageObjects/SignInPage.class
 tests/BaseTest.class
-pageObjects/CreateAccountPage.class

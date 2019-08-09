@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="29468" started-at="2019-08-09T20:14:22Z" finished-at="2019-08-09T20:14:52Z">
+  <suite name="Suite" duration-ms="10830" started-at="2019-08-09T21:07:26Z" finished-at="2019-08-09T21:07:37Z">
     <groups>
     </groups>
-    <test name="CommerceFlow" duration-ms="29468" started-at="2019-08-09T20:14:22Z" finished-at="2019-08-09T20:14:52Z">
+    <test name="CommerceFlow" duration-ms="10830" started-at="2019-08-09T21:07:26Z" finished-at="2019-08-09T21:07:37Z">
       <class name="tests.CommerceFlowTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.CommerceFlowTest@7659822f]" name="setup" is-config="true" duration-ms="7962" started-at="2019-08-09T20:14:22Z" finished-at="2019-08-09T20:14:30Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.CommerceFlowTest@ed15194f]" name="setup" is-config="true" duration-ms="7441" started-at="2019-08-09T21:07:26Z" finished-at="2019-08-09T21:07:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="acessarDetalheDoProduto()[pri:0, instance:tests.CommerceFlowTest@7659822f]" name="acessarDetalheDoProduto" duration-ms="3456" started-at="2019-08-09T20:14:30Z" finished-at="2019-08-09T20:14:33Z">
+        <test-method status="PASS" signature="acessarDetalheDoProduto()[pri:0, instance:tests.CommerceFlowTest@ed15194f]" name="acessarDetalheDoProduto" duration-ms="3121" started-at="2019-08-09T21:07:33Z" finished-at="2019-08-09T21:07:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acessarDetalheDoProduto -->
-        <test-method status="PASS" signature="registerUser()[pri:0, instance:tests.CommerceFlowTest@7659822f]" name="registerUser" duration-ms="17796" started-at="2019-08-09T20:14:34Z" finished-at="2019-08-09T20:14:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CommerceFlowTest@7659822f]" name="tearDown" is-config="true" duration-ms="109" started-at="2019-08-09T20:14:51Z" finished-at="2019-08-09T20:14:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CommerceFlowTest@ed15194f]" name="tearDown" is-config="true" duration-ms="150" started-at="2019-08-09T21:07:37Z" finished-at="2019-08-09T21:07:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

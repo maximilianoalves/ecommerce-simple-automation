@@ -26,10 +26,4 @@ public class HomePage extends BasePage {
         tShirt().click();
     }
 
-
-    public void clickSignIn() {
-        signIn().click();
-    }
-
-
 }
