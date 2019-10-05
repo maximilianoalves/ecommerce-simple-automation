@@ -1,7 +1,16 @@
 utils/Utils.class
+pageObjects/LoginPage.class
 tests/CommerceFlowTest.class
+pageObjects/OrderCompletePage.class
+pageObjects/MyAccountPage.class
+tests/BaseTest.class
+pageObjects/PaymentTypePage.class
+pageObjects/PaymentConfirmOrderPage.class
+pageObjects/ShippingPage.class
 utils/Browser.class
 pageObjects/HomePage.class
 pageObjects/CategoryPage.class
+pageObjects/AddressCheckoutPage.class
+pageObjects/CartPage.class
 pageObjects/BasePage.class
-tests/BaseTest.class
+pageObjects/ProductDetailPage.class

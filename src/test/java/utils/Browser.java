@@ -1,10 +1,14 @@
 package utils;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.remote.UnreachableBrowserException;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -17,11 +21,12 @@ public class Browser {
     public static WebDriver getCurrentDriver() {
         if (driver == null) {
             try {
-                driver = new ChromeDriver();
+                ChromeOptions capability = new ChromeOptions();
+                driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);
                 wait = new WebDriverWait(driver, 30);
                 maximizeBrowser();
                 setPageLoadTimeout();
-            } catch (Exception e) {
+            } catch (MalformedURLException e) {
                 System.out.println("Error: " + e.toString());
             }
         }

@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Suite" parallel="false">
-    <test name="CommerceFlow">
+<suite name="Automation practice" parallel="false">
+    <test name="Acessar categoria T-SHIRTS">
         <classes>
-            <class name="tests.CommerceFlowTest"/>
+            <class name="tests.CommerceFlowTest">
+                <methods>
+                    <include name="testAcessarCategoriaTShirts"/>
+                </methods>
+            </class>
         </classes>
-    </test> <!-- Test -->
+    </test>
+    <test name="Realizar login">
+        <classes>
+            <class name="tests.CommerceFlowTest">
+                <methods>
+                    <include name="testRealizarLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Realizar uma compra">
+        <classes>
+            <class name="tests.CommerceFlowTest">
+                <methods>
+                    <include name="testRealizarUmaCompra"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
 </suite>

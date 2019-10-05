@@ -3,19 +3,20 @@ package tests;
 import org.junit.After;
 import org.junit.Before;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import utils.Browser;
 import utils.Utils;
 
 public class BaseTest {
 
-    @BeforeClass
+    @BeforeTest
     public void setup(){
-        System.setProperty("webdriver.chrome.driver", Utils.webdriverLocation());
         Browser.loadPage(Utils.getBaseUrl());
     }
 
-    @AfterClass
+    @AfterTest
     public void tearDown() {
         Browser.close();
     }
