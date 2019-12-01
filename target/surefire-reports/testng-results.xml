@@ -2,56 +2,56 @@
 <testng-results skipped="0" failed="0" ignored="6" total="9" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="52404" started-at="2019-09-27T21:01:23Z" finished-at="2019-09-27T21:02:15Z">
+  <suite name="Automation practice" duration-ms="41760" started-at="2019-12-01T22:26:00Z" finished-at="2019-12-01T22:26:41Z">
     <groups>
     </groups>
-    <test name="Acessar categoria T-SHIRTS" duration-ms="10743" started-at="2019-09-27T21:01:23Z" finished-at="2019-09-27T21:01:33Z">
+    <test name="Acessar categoria T-SHIRTS" duration-ms="9909" started-at="2019-12-01T22:26:00Z" finished-at="2019-12-01T22:26:09Z">
       <class name="tests.CommerceFlowTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.CommerceFlowTest@dd645e2a]" name="setup" is-config="true" duration-ms="6781" started-at="2019-09-27T21:01:23Z" finished-at="2019-09-27T21:01:29Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.CommerceFlowTest@274438fd]" name="setup" is-config="true" duration-ms="7225" started-at="2019-12-01T22:26:00Z" finished-at="2019-12-01T22:26:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testAcessarCategoriaTShirts()[pri:0, instance:tests.CommerceFlowTest@dd645e2a]" name="testAcessarCategoriaTShirts" duration-ms="3784" started-at="2019-09-27T21:01:29Z" finished-at="2019-09-27T21:01:33Z">
+        <test-method status="PASS" signature="testAcessarCategoriaTShirts()[pri:0, instance:tests.CommerceFlowTest@274438fd]" name="testAcessarCategoriaTShirts" duration-ms="2515" started-at="2019-12-01T22:26:07Z" finished-at="2019-12-01T22:26:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAcessarCategoriaTShirts -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CommerceFlowTest@dd645e2a]" name="tearDown" is-config="true" duration-ms="58" started-at="2019-09-27T21:01:33Z" finished-at="2019-09-27T21:01:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CommerceFlowTest@274438fd]" name="tearDown" is-config="true" duration-ms="58" started-at="2019-12-01T22:26:09Z" finished-at="2019-12-01T22:26:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CommerceFlowTest -->
     </test> <!-- Acessar categoria T-SHIRTS -->
-    <test name="Realizar login" duration-ms="9962" started-at="2019-09-27T21:01:33Z" finished-at="2019-09-27T21:01:43Z">
+    <test name="Realizar login" duration-ms="9017" started-at="2019-12-01T22:26:10Z" finished-at="2019-12-01T22:26:19Z">
       <class name="tests.CommerceFlowTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.CommerceFlowTest@965ebad7]" name="setup" is-config="true" duration-ms="5850" started-at="2019-09-27T21:01:33Z" finished-at="2019-09-27T21:01:39Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.CommerceFlowTest@7c5ef4a7]" name="setup" is-config="true" duration-ms="5253" started-at="2019-12-01T22:26:10Z" finished-at="2019-12-01T22:26:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testRealizarLogin()[pri:0, instance:tests.CommerceFlowTest@965ebad7]" name="testRealizarLogin" duration-ms="4053" started-at="2019-09-27T21:01:39Z" finished-at="2019-09-27T21:01:43Z">
+        <test-method status="PASS" signature="testRealizarLogin()[pri:0, instance:tests.CommerceFlowTest@7c5ef4a7]" name="testRealizarLogin" duration-ms="3705" started-at="2019-12-01T22:26:15Z" finished-at="2019-12-01T22:26:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRealizarLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CommerceFlowTest@965ebad7]" name="tearDown" is-config="true" duration-ms="56" started-at="2019-09-27T21:01:43Z" finished-at="2019-09-27T21:01:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CommerceFlowTest@7c5ef4a7]" name="tearDown" is-config="true" duration-ms="56" started-at="2019-12-01T22:26:18Z" finished-at="2019-12-01T22:26:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CommerceFlowTest -->
     </test> <!-- Realizar login -->
-    <test name="Realizar uma compra" duration-ms="31653" started-at="2019-09-27T21:01:43Z" finished-at="2019-09-27T21:02:15Z">
+    <test name="Realizar uma compra" duration-ms="22790" started-at="2019-12-01T22:26:19Z" finished-at="2019-12-01T22:26:41Z">
       <class name="tests.CommerceFlowTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.CommerceFlowTest@eef0de33]" name="setup" is-config="true" duration-ms="12458" started-at="2019-09-27T21:01:43Z" finished-at="2019-09-27T21:01:56Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.CommerceFlowTest@7c1a568d]" name="setup" is-config="true" duration-ms="5334" started-at="2019-12-01T22:26:19Z" finished-at="2019-12-01T22:26:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testRealizarUmaCompra()[pri:0, instance:tests.CommerceFlowTest@eef0de33]" name="testRealizarUmaCompra" duration-ms="19140" started-at="2019-09-27T21:01:56Z" finished-at="2019-09-27T21:02:15Z">
+        <test-method status="PASS" signature="testRealizarUmaCompra()[pri:0, instance:tests.CommerceFlowTest@7c1a568d]" name="testRealizarUmaCompra" duration-ms="17400" started-at="2019-12-01T22:26:24Z" finished-at="2019-12-01T22:26:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRealizarUmaCompra -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CommerceFlowTest@eef0de33]" name="tearDown" is-config="true" duration-ms="55" started-at="2019-09-27T21:02:15Z" finished-at="2019-09-27T21:02:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CommerceFlowTest@7c1a568d]" name="tearDown" is-config="true" duration-ms="55" started-at="2019-12-01T22:26:41Z" finished-at="2019-12-01T22:26:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CommerceFlowTest -->
     </test> <!-- Realizar uma compra -->
-  </suite> <!-- Suite -->
+  </suite> <!-- Automation practice -->
 </testng-results>
