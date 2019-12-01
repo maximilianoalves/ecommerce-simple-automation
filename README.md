@@ -80,16 +80,3 @@ No terminal de seu editor de texto, executar os seguintes comandos:
 #### Para visualizar o relatório
 No terminal de seu editor de texto, executar os seguintes comandos:
 - `mvn  allure:serve`
-
-
-
-
-utilizao webdriver-manager do npm
-
-primeiro webdriver-manager update
-depois webdriver-manager start
-
-Exec:
-`mvn clean test`  
-Report:
-`mvn allure:serve`
