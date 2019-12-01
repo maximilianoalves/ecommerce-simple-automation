@@ -8,6 +8,7 @@
 - [Selenium JAVA](https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java "Selenium JAVA")
 - [Lombok](https://projectlombok.org/ "Lombok")
 - [Allure report](https://docs.qameta.io/allure/ "Allure report")
+- [webdriver-manager](https://www.npmjs.com/package/webdriver-manager "webdriver-manager")
 
 ## Recursos utilizados no projeto
 - **Selenium:**
@@ -60,6 +61,28 @@
 ```
 
 ## Tutorial, Instalação e execução
+
+**Ter previamente instalado:**
+- JAVA
+- NodeJS
+- Maven (mvn)
+
+#### Instalar o webdriver-manager
+Em uma nova aba ou janela de seu terminal, executar os seguintes comandos: 
+- `npm install -g webdriver-manager`
+- `webdriver-manager update`
+- `webdriver-manager start`
+
+#### Abrir o projeto no editor de texto de sua preferência
+No terminal de seu editor de texto, executar os seguintes comandos:
+- `mvn clean test`
+
+#### Para visualizar o relatório
+No terminal de seu editor de texto, executar os seguintes comandos:
+- `mvn  allure:serve`
+
+
+
 
 utilizao webdriver-manager do npm
 
